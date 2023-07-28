@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- bootstrap grid css -->
+    <link rel="stylesheet" href="../css/plugins/bootstrap-grid.css">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="../css/plugins/font-awesome.min.css">
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="../css/plugins/fancybox.min.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="../css/plugins/swiper.min.css">
+    <!-- mil css -->
+    <link rel="stylesheet" href="../css/style-me.css">
+    <!-- page title -->
+    <title>Lettery</title>
+
+</head>
+
+<body>
+
+    <!-- wrapper -->
+    <div id="smooth-wrapper">
+        <!-- cursor -->
+        <div class="mil-cursor">
+            <span class="mil-word-1">Play</span>
+            <span class="mil-word-2">Open</span>
+            <span class="mil-icon-1">
+                <svg viewBox="0 0 128 128">
+                    <path d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z" />
+                </svg>
+            </span>
+            <span class="mil-icon-2">
+                <svg viewBox="0 0 50 50">
+                    <path d="M 38.035156 13.988281 C 37.628906 13.980469 37.257813 14.222656 37.09375 14.59375 C 36.933594 14.96875 37.015625 15.402344 37.300781 15.691406 L 45.277344 24 L 2.023438 24 C 1.664063 23.996094 1.328125 24.183594 1.148438 24.496094 C 0.964844 24.808594 0.964844 25.191406 1.148438 25.503906 C 1.328125 25.816406 1.664063 26.003906 2.023438 26 L 45.277344 26 L 37.300781 34.308594 C 36.917969 34.707031 36.933594 35.339844 37.332031 35.722656 C 37.730469 36.105469 38.363281 36.09375 38.746094 35.691406 L 49.011719 25 L 38.746094 14.308594 C 38.5625 14.109375 38.304688 13.996094 38.035156 13.988281 Z" />
+                </svg>
+            </span>
+            <span class="mil-icon-3">
+                <svg viewBox="0 0 48 48">
+                    <path d="M 20.5 6 C 12.509634 6 6 12.50964 6 20.5 C 6 28.49036 12.509634 35 20.5 35 C 23.956359 35 27.133709 33.779044 29.628906 31.75 L 39.439453 41.560547 A 1.50015 1.50015 0 1 0 41.560547 39.439453 L 31.75 29.628906 C 33.779044 27.133709 35 23.956357 35 20.5 C 35 12.50964 28.490366 6 20.5 6 z M 20.5 9 C 26.869047 9 32 14.130957 32 20.5 C 32 23.602612 30.776198 26.405717 28.791016 28.470703 A 1.50015 1.50015 0 0 0 28.470703 28.791016 C 26.405717 30.776199 23.602614 32 20.5 32 C 14.130953 32 9 26.869043 9 20.5 C 9 14.130957 14.130953 9 20.5 9 z M 20.476562 13.978516 A 1.50015 1.50015 0 0 0 19 15.5 L 19 19 L 15.5 19 A 1.50015 1.50015 0 1 0 15.5 22 L 19 22 L 19 25.5 A 1.50015 1.50015 0 1 0 22 25.5 L 22 22 L 25.5 22 A 1.50015 1.50015 0 1 0 25.5 19 L 22 19 L 22 15.5 A 1.50015 1.50015 0 0 0 20.476562 13.978516 z" />
+                </svg>
+            </span>
+        </div>
+        <!-- cursor end -->
+        <!-- preloader -->
+        <div class="mil-preloader-1 mill-light-preloader">
+            <div class="mil-preloader-content">
+                <div class="mil-ticker mil-h5 mil-softened-80">Loading <span class="mil-accent">&#x2022;</span> <b class="mil-text-stroke">Please wait</b> <span class="mil-accent">&#x2022;</span> Loading <span class="mil-accent">&#x2022;</span> <b class="mil-text-stroke">Please wait</b> <span class="mil-accent">&#x2022;</span> Loading <span class="mil-accent">&#x2022;</span> <b class="mil-text-stroke">Please wait</b> <span class="mil-accent">&#x2022;</span> Loading <span class="mil-accent">&#x2022;</span> <b class="mil-text-stroke">Please wait</b> <span class="mil-accent">&#x2022;</span> Loading <span class="mil-accent">&#x2022;</span> Please wait <span class="mil-accent">&#x2022;</span> Loading <span class="mil-accent">&#x2022;</span> <b class="mil-text-stroke">Please wait</b> <span class="mil-accent">&#x2022;</span></div>
+            </div>
+            <div class="mil-preloader-load-track">
+                <div class="mil-preloader-load"></div>
+            </div>
+        </div>
+        <!-- preloader end -->
+        <!-- scroll progress -->
+        <div class="mil-progress-track">
+            <div class="mil-progress"></div>
+        </div>
+        <!-- scroll progress end -->
+        <!-- top panel -->
+        <div class="mil-top-panel mil-animated">
+            <div class="container">
+                <a href="../marketing-expert.html" class="mil-logo mil-scale-down-trigger">
+                    <div class="mil-h5">Lettery<span class="mil-accent">.</span></div>
+                </a>
+                <div class="mil-mobile-dropdown mil-menu-center">
+                    <div id="swupTopbar" class="mil-top-bar-transition">
+                        <nav class="mil-dark-nav">
+                            <ul class="mil-inline-list mil-hidden-trigger">
+                                <li class="mil-has-children">
+                                    <a href="#." class="mil-link">Homepages</a>
+                                    <ul>
+                                        <li><a href="../content-strategist.html" target="_blank" data-no-swup class="mil-link">Content strategist</a></li>
+                                        <li><a href="../marketing-expert.html" class="mil-link">Marketing expert</a></li>
+                                        <li><a href="../smm-manager.html" target="_blank" data-no-swup class="mil-link">Smm manager</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="mil-link">About</a>
+                                </li>
+                                <li class="mil-has-children">
+                                    <a href="#." class="mil-link">Portfolio</a>
+                                    <ul>
+                                        <li><a href="portfolio.html" class="mil-link">Portfolio grid</a></li>
+                                        <li><a href="portfolio-2.html" class="mil-link">Portfolio grid 2</a></li>
+                                        <li><a href="project.html" class="mil-link">Project page</a></li>
+                                        <li><a href="project-2.html" class="mil-link">Project page 2</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="contact.html" class="mil-link">Contact</a>
+                                </li>
+                                <li class="mil-has-children">
+                                    <a href="#." class="mil-link mil-active">Pages</a>
+                                    <ul>
+                                        <li><a href="blog.html" class="mil-link">Blog list</a></li>
+                                        <li><a href="blog-post.html" class="mil-link">Publication</a></li>
+                                        <li><a href="blog-post-2.html" class="mil-link">Publication 2</a></li>
+                                        <li><a href="team.html" class="mil-link">Team</a></li>
+                                        <li><a href="services.html" class="mil-link">Services list</a></li>
+                                        <li><a href="service.html" class="mil-link">Service</a></li>
+                                        <li><a href="404.html" class="mil-link">404</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <ul class="mil-social mil-hidden-trigger">
+                        <li>
+                            <a href="#." target="_blank">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#." target="_blank">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#." target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#." target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- mobile menu button -->
+                <div class="mil-menu-btn">
+                    <span></span>
+                </div>
+                <!-- mobile menu button end -->
+            </div>
+        </div>
+        <!-- top panel end -->
+
+        <!-- dynamic content -->
+        <div id="swupMain" class="mil-main-transition">
+            <!-- content -->
+            <div id="smooth-content" class="mil-content">
+
+                <!-- banner -->
+                <div class="mil-small-banner">
+                    <div class="mil-image-frame">
+                        <!-- banner image -->
+                        <img src="../img/content/11.jpg" alt="img" class="mil-scale-img" data-value-1=".5" data-value-2="1.2">
+                    </div>
+                </div>
+                <div class="mil-spacer"></div>
+                <!-- banner end -->
+
+                <!-- service -->
+                <div class="container mil-content-frame mil-appearance mil-p-120-120">
+
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4 mil-mb-120">
+                            <span class="mil-link mil-softened-60 mil-appearance mil-mb-30">Services</span>
+                            <h3 class="mil-appearance mil-mb-30">Website Content</h3>
+
+                            <p class="mil-appearance mil-mb-30">At Lettery, we're committed to providing our clients with the highest level of service and support. Contact us today to learn more about how we can help you achieve your content and social media goals.</p>
+
+                            <a href="portfolio-2.html" class="mil-button mil-button-lg mil-scale-down-trigger mil-accent-trigger"><span>Portfolio</span></a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mil-accordion">
+
+                                <div class="mil-accordion-group mil-appearance">
+                                    <div class="mil-accordion-menu">
+                                        <h6>Blog writing</h6>
+
+                                        <div class="mil-accordion-plus">+</div>
+                                        <div class="mil-accordion-minus">-</div>
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
+                                    </div>
+                                </div>
+
+                                <div class="mil-accordion-group mil-appearance">
+                                    <div class="mil-accordion-menu">
+                                        <h6>Multimedia production</h6>
+
+                                        <div class="mil-accordion-plus">+</div>
+                                        <div class="mil-accordion-minus">-</div>
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore assumenda mollitia magni quisquam incidunt necessitatibus error delectus commodi ad exercitationem, dolorem iusto placeat pariatur et aspernatur totam sapiente similique voluptatem quae sunt iste officia sint laborum eum, eos. Molestias modi aliquam accusamus dolore. Mollitia quod omnis ea fugit rem nesciunt ad provident ratione, culpa ex laudantium, enim sit ut eius.</p>
+                                    </div>
+                                </div>
+
+                                <div class="mil-accordion-group mil-appearance">
+                                    <div class="mil-accordion-menu">
+                                        <h6>Content editing</h6>
+
+                                        <div class="mil-accordion-plus">+</div>
+                                        <div class="mil-accordion-minus">-</div>
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                    </div>
+                                </div>
+
+                                <div class="mil-accordion-group mil-appearance">
+                                    <div class="mil-accordion-menu">
+                                        <h6>Social media content creation</h6>
+
+                                        <div class="mil-accordion-plus">+</div>
+                                        <div class="mil-accordion-minus">-</div>
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quo ullam maiores reiciendis, voluptatibus quae odio, accusamus facere vero consectetur! Omnis nobis voluptatum deserunt maxime, error dolor nulla, perspiciatis assumenda quisquam, fugiat magnam placeat culpa sit reprehenderit nesciunt quis praesentium! Quam ullam tempora quidem, totam autem explicabo alias, obcaecati quaerat earum nisi, asperiores ea perspiciatis iusto neque. Odit molestias voluptatem laboriosam distinctio delectus consequatur, quo nemo nihil, deleniti perspiciatis nisi itaque similique accusantium facilis asperiores dicta veniam voluptatum numquam aliquam!</p>
+                                    </div>
+                                </div>
+
+                                <div class="mil-accordion-group mil-appearance">
+                                    <div class="mil-accordion-menu">
+                                        <h6>Email newsletter copywriting</h6>
+
+                                        <div class="mil-accordion-plus">+</div>
+                                        <div class="mil-accordion-minus">-</div>
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                    </div>
+                                </div>
+
+                                <div class="mil-accordion-group mil-appearance">
+                                    <div class="mil-accordion-menu">
+                                        <h6>Product descriptions</h6>
+
+                                        <div class="mil-accordion-plus">+</div>
+                                        <div class="mil-accordion-minus">-</div>
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quo ullam maiores reiciendis, voluptatibus quae odio, accusamus facere vero consectetur! Omnis nobis voluptatum deserunt maxime, error dolor nulla, perspiciatis assumenda quisquam, fugiat magnam placeat culpa sit reprehenderit nesciunt quis praesentium! Quam ullam tempora quidem, totam autem explicabo alias, obcaecati quaerat earum nisi, asperiores ea perspiciatis iusto neque. Odit molestias voluptatem laboriosam distinctio delectus consequatur, quo nemo nihil, deleniti perspiciatis nisi itaque similique accusantium facilis asperiores dicta veniam voluptatum numquam aliquam!</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- service end -->
+
+                <!-- prices -->
+                <div class="mil-gray-bg mil-p-120-90">
+                    <div class="container">
+                        <div class="row justify-content-between mil-mb-120">
+                            <div class="col-xl-5">
+
+                                <h3 class="mil-link mil-appearance mil-accent mil-mb-30">Prices</h3>
+                                <h3 class="mil-mb-30 mil-appearance">Choose the optimal price plan</h3>
+
+                            </div>
+                            <div class="col-xl-6">
+
+                                <p class="mil-appearance mil-mt-55-adapt mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga ratione cum maxime ullam id voluptatibus commodi dolorem at, aut, odio, amet quod molestias possimus. Sunt repudiandae ipsam, consectetur repellendus.</p>
+
+                                <div class="mil-appearance"><a href="contact.html" class="mil-link-hover">Contact us</a></div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+
+                                <!-- price card -->
+                                <div class="mil-price-card mil-appearance mil-mb-30">
+                                    <h5 class="mil-mb-15">Free</h5>
+                                    <p class="mil-h6 mil-bold mil-mb-30">Basic functionality</p>
+
+                                    <div class="mil-price-number mil-mb-10">$0<span>/mo</span></div>
+                                    <p class="mil-h6 mil-bold mil-mb-30">Free forever</p>
+
+                                    <div class="mil-divider mil-mb-30"></div>
+
+                                    <ul class="mil-mb-30">
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Dolorum sed doloribus</span>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Consectetur adipisicing elit</span>
+                                        </li>
+                                        <li class="mil-empty">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Maxime libero</span>
+                                        </li>
+                                        <li class="mil-empty">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Atque esse odit</span>
+                                        </li>
+                                        <li class="mil-empty">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Laboriosam corporis</span>
+                                        </li>
+                                    </ul>
+
+                                    <a href="contact.html" class="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"><span>Choose a plan</span></a>
+                                </div>
+                                <!-- price card end -->
+
+                            </div>
+                            <div class="col-lg-4">
+
+                                <!-- price card -->
+                                <div class="mil-price-card mil-appearance mil-mb-30">
+                                    <h5 class="mil-mb-15">Pro</h5>
+                                    <p class="mil-h6 mil-bold mil-mb-30">More advanced</p>
+
+                                    <div class="mil-price-number mil-mb-10">$89<span>/mo</span></div>
+                                    <p class="mil-h6 mil-bold mil-mb-30">Per month</p>
+
+                                    <div class="mil-divider mil-mb-30"></div>
+
+                                    <ul class="mil-mb-30">
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Dolorum sed doloribus</span>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Consectetur adipisicing elit</span>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Maxime libero</span>
+                                        </li>
+                                        <li class="mil-empty">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Atque esse odit</span>
+                                        </li>
+                                        <li class="mil-empty">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Laboriosam corporis</span>
+                                        </li>
+                                    </ul>
+
+                                    <a href="contact.html" class="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"><span>Choose a plan</span></a>
+                                </div>
+                                <!-- price card end -->
+
+                            </div>
+                            <div class="col-lg-4">
+
+                                <!-- price card -->
+                                <div class="mil-price-card mil-appearance mil-mb-30">
+                                    <h5 class="mil-mb-15">Enterprise</h5>
+                                    <p class="mil-h6 mil-bold mil-mb-30">For large business</p>
+
+                                    <div class="mil-price-number mil-mb-10">$399<span>/mo</span></div>
+                                    <p class="mil-h6 mil-bold mil-mb-30">Per month</p>
+
+                                    <div class="mil-divider mil-mb-30"></div>
+
+                                    <ul class="mil-mb-30">
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Dolorum sed doloribus</span>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Consectetur adipisicing elit</span>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Maxime libero</span>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Atque esse odit</span>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M11.707,15.707C11.512,15.902,11.256,16,11,16s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0L11,13.586l8.35-8.35C17.523,3.251,14.911,2,12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10s10-4.477,10-10 c0-1.885-0.531-3.642-1.438-5.148L11.707,15.707z" />
+                                            </svg>
+                                            <span>Laboriosam corporis</span>
+                                        </li>
+                                    </ul>
+
+                                    <a href="contact.html" class="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"><span>Choose a plan</span></a>
+                                </div>
+                                <!-- price card end -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- prices end -->
+
+                <!-- other services -->
+                <div class="container mil-p-120-90">
+                    <div class="row justify-content-between mil-mb-120">
+                        <div class="col-xl-5">
+
+                            <h3 class="mil-link mil-appearance mil-accent mil-mb-30">Newsletter</h3>
+                            <h3 class="mil-mb-30 mil-appearance">News from the life <br>of our agency.</h3>
+
+                        </div>
+                        <div class="col-xl-6">
+
+                            <p class="mil-appearance mil-mt-55-adapt mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga ratione cum maxime ullam id voluptatibus commodi dolorem at, aut, odio, amet quod molestias possimus. Sunt repudiandae ipsam, consectetur repellendus.</p>
+
+                            <div class="mil-deco mil-appearance"></div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6">
+
+                            <!-- service card -->
+                            <a href="service.html" class="mil-service-card mil-appearance mil-icon-2-trigger mil-mb-30">
+                                <div class="mil-card-content">
+                                    <!-- icon -->
+                                    <img src="../img/icons/10.svg" alt="icon" class="mil-card-icon">
+                                    <div>
+                                        <!-- text -->
+                                        <h5 class="mil-mb-10">Website Content</h5>
+                                        <p class="mil-softened-40">Deleniti ratione beatae</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- service card end -->
+
+                        </div>
+                        <div class="col-xl-3 col-lg-6">
+
+                            <!-- service card -->
+                            <a href="service.html" class="mil-service-card mil-appearance mil-icon-2-trigger mil-mb-30">
+                                <div class="mil-card-content">
+                                    <!-- icon -->
+                                    <img src="../img/icons/11.svg" alt="icon" class="mil-card-icon">
+                                    <div>
+                                        <!-- text -->
+                                        <h5 class="mil-mb-10">Blog Articles</h5>
+                                        <p class="mil-softened-40">Deleniti ratione beatae</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- service card end -->
+
+                        </div>
+                        <div class="col-xl-3 col-lg-6">
+
+                            <!-- service card -->
+                            <a href="service.html" class="mil-service-card mil-appearance mil-icon-2-trigger mil-mb-30">
+                                <div class="mil-card-content">
+                                    <!-- icon -->
+                                    <img src="../img/icons/12.svg" alt="icon" class="mil-card-icon">
+                                    <div>
+                                        <!-- text -->
+                                        <h5 class="mil-mb-10">Product Captions</h5>
+                                        <p class="mil-softened-40">Deleniti ratione beatae</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- service card end -->
+
+                        </div>
+                        <div class="col-xl-3 col-lg-6">
+
+                            <!-- service card -->
+                            <a href="service.html" class="mil-service-card mil-appearance mil-icon-2-trigger mil-mb-30">
+                                <div class="mil-card-content">
+                                    <!-- icon -->
+                                    <img src="../img/icons/9.svg" alt="icon" class="mil-card-icon">
+                                    <div>
+                                        <!-- text -->
+                                        <h5 class="mil-mb-10">Email Writing</h5>
+                                        <p class="mil-softened-40">Deleniti ratione beatae</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- service card end -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- other services end -->
+
+                <!-- call to action -->
+                <div class="mil-accent-bg">
+                    <div class="container mil-p-60-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-9 mil-mb-30">
+                                <h4 class="mil-buttons-space">We make the creative solutions for modern brands</h4>
+                            </div>
+                            <div class="col-lg-3 mil-mb-30">
+
+                                <a href="contact.html" class="mil-float-right mil-button mil-button-lg mil-button-dark mil-scale-down-trigger mil-accent-trigger"><span>Contact us</span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- call to action end -->
+
+                <!-- footer -->
+                <footer class="mil-footer-2">
+                    <div class="container">
+
+                        <div class="row flex-sm-row-reverse justify-content-between">
+                            <div class="col-lg-5 mil-mb-30">
+                                <ul class="mil-social mil-hidden-trigger mil-right">
+                                    <li>
+                                        <a href="#.">
+                                            <i class="fab fa-behance"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#.">
+                                            <i class="fab fa-dribbble"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#.">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#.">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 mil-text-center mil-mb-30">
+                                <a href="#." class="mil-logo mil-scale-down-trigger">
+                                    <div class="mil-h5">Lettery<span class="mil-accent">.</span></div>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 mil-mb-30">
+                                <p class="mil-text-sm mil-softened-60">© Copyright 2023 - Mil. All Rights Reserved.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </footer>
+                <!-- footer end -->
+
+            </div>
+            <!-- content end -->
+        </div>
+        <!-- dynamic content end -->
+    </div>
+    <!-- wrapper end -->
+
+    <!-- jquery js -->
+    <script src="../js/plugins/jquery.min.js"></script>
+    <!-- swup js -->
+    <script src="../js/plugins/swup.min.js"></script>
+    <!-- gsap js -->
+    <script src="../js/plugins/gsap.min.js"></script>
+    <!-- scroll smoother -->
+    <script src="../js/plugins/ScrollSmoother.min.js"></script>
+    <!-- scroll trigger js -->
+    <script src="../js/plugins/ScrollTrigger.min.js"></script>
+    <!-- scroll to js -->
+    <script src="../js/plugins/ScrollTo.min.js"></script>
+    <!-- fancybox js -->
+    <script src="../js/plugins/fancybox.min.js"></script>
+    <!-- swiper js -->
+    <script src="../js/plugins/swiper.min.js"></script>
+    <!-- main js -->
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
